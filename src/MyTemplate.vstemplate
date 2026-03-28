@@ -1,0 +1,103 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>20240628_MTC_Tool_Development_Template</Name>
+    <Description>&lt;説明はありません。&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>20240628_MTC_Tool_Development_Template</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="MTC_Tool_Development_Template.csproj" File="MTC_Tool_Development_Template.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="App.config">App.config</ProjectItem>
+      <Folder Name="Const" TargetFolderName="Const">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Constants.cs">Constants.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Messages.cs">Messages.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Sql.cs">Sql.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Database" TargetFolderName="Database">
+        <ProjectItem ReplaceParameters="false" TargetFileName="ToolName.db">ToolName.db</ProjectItem>
+      </Folder>
+      <Folder Name="Forms" TargetFolderName="Forms">
+        <ProjectItem ReplaceParameters="true" TargetFileName="CheckAdminForm.cs">CheckAdminForm.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="CheckAdminForm.Designer.cs">CheckAdminForm.Designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="CheckAdminForm.resx">CheckAdminForm.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="MainForm.cs">MainForm.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="MainForm.Designer.cs">MainForm.Designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="MainForm.resx">MainForm.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="MasterAdminForm.cs">MasterAdminForm.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="MasterAdminForm.Designer.cs">MasterAdminForm.Designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="MasterAdminForm.resx">MasterAdminForm.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="SysAdminForm.cs">SysAdminForm.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="SysAdminForm.Designer.cs">SysAdminForm.Designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="SysAdminForm.resx">SysAdminForm.resx</ProjectItem>
+      </Folder>
+      <Folder Name="Logic" TargetFolderName="Logic">
+        <Folder Name="Entity" TargetFolderName="Entity">
+          <ProjectItem ReplaceParameters="true" TargetFileName="DispToolInfo.cs">DispToolInfo.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Params.cs">Params.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Sample_KntnAppInfo.cs">Sample_KntnAppInfo.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Sample_KntnSpaceInfoModel.cs">Sample_KntnSpaceInfoModel.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Sample_KntnUserGetModel.cs">Sample_KntnUserGetModel.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Sample_KntnUserUpdateModel.cs">Sample_KntnUserUpdateModel.cs</ProjectItem>
+        </Folder>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Logic1.cs">Logic1.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Sample_KintoneAPICall.cs">Sample_KintoneAPICall.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="packages.config">packages.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.resx">Resources.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.Designer.cs">Resources.Designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Settings.settings">Settings.settings</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Settings.Designer.cs">Settings.Designer.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Resources" TargetFolderName="Resources">
+        <ProjectItem ReplaceParameters="false" TargetFileName="setting.png">setting.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="setting_hover.png">setting_hover.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="template_icon.ico">template_icon.ico</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="template_logo.png">template_logo.png</ProjectItem>
+      </Folder>
+      <Folder Name="Template" TargetFolderName="Template">
+        <ProjectItem ReplaceParameters="true" TargetFileName="sample.txt">sample.txt</ProjectItem>
+      </Folder>
+      <Folder Name="Utils" TargetFolderName="Utils">
+        <ProjectItem ReplaceParameters="true" TargetFileName="DialogUtils.cs">DialogUtils.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="FileOperationUtils.cs">FileOperationUtils.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="FormSettingUtils.cs">FormSettingUtils.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="KintoneAPIUtils.cs">KintoneAPIUtils.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="LogUtils.cs">LogUtils.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="MessageUtils.cs">MessageUtils.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ProgressUtils.cs">ProgressUtils.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="RindAccessUtils.cs">RindAccessUtils.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="SettingsUtils.cs">SettingsUtils.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="SQLiteUtils.cs">SQLiteUtils.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="UpdateDtTblUtils.cs">UpdateDtTblUtils.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ValidationUtils.cs">ValidationUtils.cs</ProjectItem>
+      </Folder>
+    </Project>
+  </TemplateContent>
+<WizardExtension>  
+<Assembly>NuGet.VisualStudio.Interop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Assembly>  
+<FullClassName>NuGet.VisualStudio.TemplateWizard</FullClassName>  
+</WizardExtension>  
+<WizardData>  
+<packages>
+  <package id="ExcelDataReader" version="3.6.0" targetFramework="net48" />
+  <package id="ExcelDataReader.DataSet" version="3.6.0" targetFramework="net48" />
+  <package id="Microsoft.Office.Interop.Excel" version="15.0.4795.1001" targetFramework="net48" />
+  <package id="Microsoft.WindowsAPICodePack-Core" version="1.1.0.0" targetFramework="net45" />
+  <package id="Microsoft.WindowsAPICodePack-Shell" version="1.1.0.0" targetFramework="net45" />
+  <package id="Newtonsoft.Json" version="13.0.3" targetFramework="net48" />
+  <package id="Stub.System.Data.SQLite.Core.NetFramework" version="1.0.114.0" targetFramework="net45" requireReinstallation="true" />
+  <package id="System.Data.SQLite.Core" version="1.0.114.3" targetFramework="net45" />
+</packages>
+</WizardData>
+</VSTemplate>
